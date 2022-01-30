@@ -162,7 +162,7 @@ float pidkd_init[PIDNUMBER] = { 0, 0, 0 };
 	#define ENABLE_SETPOINT_WEIGHTING
 	//            Roll   Pitch   Yaw
 	//float b[3] = { 0.97 , 0.98 , 0.95};   //BRUSHED RACE
-	float b[3] = { 0.93 , 0.93 , 0.9};      //BRUSHED FREESTYLE
+	float b[3] = { 0.90 , 0.90 , 0.87};      //BRUSHED FREESTYLE
 
 	/// output limit	
 	const float outlimit[PIDNUMBER] = { 1.7 , 1.7 , 0.5 };

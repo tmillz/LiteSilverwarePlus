@@ -38,17 +38,17 @@
 // *************rate in deg/sec
 // *************for acro mode
 #define MAX_RATE 860.0          //Roll & Pitch axis
-#define MAX_RATEYAW 500.0       //Yaw axis (used in acro and leveling modes)
+#define MAX_RATEYAW 720.0       //Yaw axis (used in acro and leveling modes)
 
 // *************EXPO from 0.00 to 1.00 , 0 = no exp
 // *************positive = less sensitive near center 
-#define ACRO_EXPO_ROLL 0.80
-#define ACRO_EXPO_PITCH 0.80
-#define ACRO_EXPO_YAW 0.60
+#define ACRO_EXPO_ROLL 0.70
+#define ACRO_EXPO_PITCH 0.70
+#define ACRO_EXPO_YAW 0.50
 
-#define ANGLE_EXPO_ROLL 0.55
+#define ANGLE_EXPO_ROLL 0.0
 #define ANGLE_EXPO_PITCH 0.0
-#define ANGLE_EXPO_YAW 0.55
+#define ANGLE_EXPO_YAW 0.0
 #endif
 
 #ifdef BETAFLIGHT_RATES
@@ -260,8 +260,8 @@
 //#define PT1_GYRO
 
 //Select Gyro Filter Cut Frequency
-#define GYRO_FILTER_PASS1 HZ_90
-#define GYRO_FILTER_PASS2 HZ_90
+#define GYRO_FILTER_PASS1 HZ_70
+#define GYRO_FILTER_PASS2 HZ_70
 
 //Select D Term Filter Cut Frequency *** Select Only one
 #define  DTERM_LPF_2ND_HZ 100
